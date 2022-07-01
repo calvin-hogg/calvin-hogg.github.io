@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>School - CALVIN HOGG</title>
+        <title>CALVIN HOGG > School</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="framework/styles.css">
@@ -12,9 +12,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body class="bg-school" onload="document.body.style.opacity='1'">
+    <body class="bg-default2" onload="document.body.style.opacity='1', avatar.hidden=false" style="background-image: url('assets/images/about/bannerDark.jpg'); background-attachment: fixed; background-size: cover;">
 
-        <!-- Navbar Desktop-->
+		<!-- Navbar Desktop-->
         <nav class="navbar bg-default">
             <div class="container-fluid" style="padding: 0px !important;">
 				<div class="navbarLogo">
@@ -25,35 +25,34 @@
                     </a>
 				</div>
                 <div class="navbarLinks">
-					<div class="navbarLinks-active" style="width: 114px;">
-						<img class="navbarLinks-image" src="assets/vectorIcons/school.svg"/>
-						<span class="navbarLinks-text">School</span>
-					</div>
-    				<a href="art.html">
-    					<div class="navbarLinks-other" style="width: 88px;">
-    						<img class="navbarLinks-image" src="assets/vectorIcons/photos.svg"/>
-							<span class="navbarLinks-text">Art</span>
-    					</div>
-    				</a>
+					<a href="school.html">
+						<div class="navbarLinks-active" style="width: 118px;">
+							<img class="navbarLinks-image" src="assets/vectorIcons/school.svg"/>
+							<span class="navbarLinks-text">School</span>
+						</div>
+					</a>
 					<a href="workbooks.html">
-    					<div class="navbarLinks-other" style="width: 150px;">
+    					<div class="navbarLinks-other" style="width: 154px;">
     						<img class="navbarLinks-image" src="assets/vectorIcons/workbook.svg"/>
 							<span class="navbarLinks-text">Workbooks</span>
     					</div>
     				</a>
+					<a href="projects.html">
+    					<div class="navbarLinks-other" style="width: 132px;">
+    						<img class="navbarLinks-image" src="assets/vectorIcons/placeholder.svg"/>
+							<span class="navbarLinks-text">Projects</span>
+    					</div>
+    				</a>
                 </div>
                 <div class="socialMediaNavbar">
-					<div class="socialMediaNavbar-link" style="border-radius: 13px 6px 6px 13px;">
-                        <img class="socialMediaLink-image" src="assets/vectorLogos/youtube.svg"/>
-                    </div>
-                    <div class="socialMediaNavbar-link" style="border-radius: 6px;">
-                        <a href="https://www.deviantart.com/calvinhogg">
-                            <img class="socialMediaLink-image" src="assets/images/deviantArt.svg"/>
+                    <div class="socialMediaNavbar-link" style="border-radius: 14px 4px 4px 14px;">
+                        <a href="https://twitter.com/calvinhogg2000" target="_blank">
+                            <img class="socialMediaNavbar-image" src="assets/vectorLogos/twitter.svg"/>
                         </a>
                     </div>
-                    <div class="socialMediaNavbar-link" style="border-radius: 6px 13px 13px 6px;">
-                        <a href="https://www.linkedin.com/in/calvin-hogg/">
-                            <img class="socialMediaLink-image" src="assets/images/linkedIn.png"/>
+                    <div class="socialMediaNavbar-link" style="border-radius: 4px 14px 14px 4px;">
+                        <a href="https://www.linkedin.com/in/calvin-hogg/" target="_blank">
+                            <img class="socialMediaNavbar-image" src="assets/vectorLogos/linkedin.svg"/>
                         </a>
                     </div>
                 </div>
@@ -63,22 +62,22 @@
             </div>
 			<div id="navbarMenuItems">
 				<div class="divider"></div>
-				<a href="school.html" class="disabled">
+				<a href="school.html">
 					<div class="buttonDownload">
 						<img src="assets/vectorIcons/school.svg" style="filter: invert(); height: 100%;"/>
 						<span style="line-height: 2rem; margin-left: 1rem;">School</span>
-					</div>
-				</a>
-				<a href="art.html">
-					<div class="buttonDownload">
-						<img src="assets/vectorIcons/photos.svg" style="filter: invert(); height: 100%;"/>
-						<span style="line-height: 2rem; margin-left: 1rem;">Art</span>
 					</div>
 				</a>
 				<a href="workbooks.html">
 					<div class="buttonDownload">
 						<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
 						<span style="line-height: 2rem; margin-left: 1rem;">Workbooks</span>
+					</div>
+				</a>
+				<a href="projects.html">
+					<div class="buttonDownload">
+						<img src="assets/vectorIcons/placeholder.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Projects</span>
 					</div>
 				</a>
 			</div>
@@ -95,58 +94,69 @@
 
 
 		<!-- 2022 -->
-		<section class="section bg-school" style="padding-bottom: 8rem;">
+		<section class="section bg-school2" style="padding-bottom: 8rem;">
             <div class="container">
                 <h2 class="section-heading textColor-secondary" style="margin-bottom: 0px;">Bachelor of Creativity: Level 7</h2>
 	            <h3 class="section-subHeading textColor-secondary" style="margin-top: 0.5rem;">Wellington Institute of Technology, 2022</h3>
-				<br>
-				<h3 style="text-align: center; font-size: 4rem; font-weight: 300; color: #59646f;">Coming soon!</span>
+				<div class="row">
+
+					<div class="column3 card bg-school3">
+                        <span class="card-title">3D Environment</span>
+						<br>
+                        <span class="card-subtitle textColor-secondary">Semester 1: Applied Media Studio</span>
+
+                        <img class="card-image" src="assets/images/school/environment.jpg"/>
+                        <div class="card-description">
+                            <span>text</span>
+                        </div>
+                    </div>
+
+					<div class="column3 card bg-school3">
+                        <span class="card-title">Character</span>
+						<br>
+                        <span class="card-subtitle textColor-secondary">Semester 1: Applied Media Studio</span>
+
+                        <img class="card-image" src="assets/images/school/character.jpg"/>
+                        <div class="card-description">
+                            <span>text</span>
+                        </div>
+                    </div>
+
+					<div class="column3 card bg-school3">
+                        <span class="card-title">Video Game</span>
+						<br>
+                        <span class="card-subtitle textColor-secondary">Semester 1: Major Projects</span>
+
+                        <img class="card-image" src="assets/images/school/game.jpg"/>
+                        <div class="card-description">
+                            <span>text</span>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
 
 		<!-- 2021 -->
-		<section class="section bg-school darker">
+		<section class="section bg-school1">
             <div class="container">
                 <h2 class="section-heading textColor-secondary" style="margin-bottom: 0px;">Diploma of Creativity: Level 6</h2>
 	            <h3 class="section-subHeading textColor-secondary" style="margin-top: 0.5rem;">Wellington Institute of Technology, 2021</h3>
                 <div class="row">
 
-					<div class="column3 card bg-school">
-                        <span class="card-title">Physical Images</span>
+					<div class="column3 card bg-school2">
+                        <span class="card-title">Screenprinting</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Image Making Studio</span>
-                        <div class="card-slideshow slideshow">
-							<div class="slideshow-slides" style="display: block;">
-								<div class="slideshow-info" style="padding-bottom: 44px;">
-									<div class="slideshow-counter">1/3</div>
-								</div>
-								<img src="assets/images/school/cyanotype.jpg" class="slideshow-image" style="width: 100%; pointer-events: none;">
-							</div>
 
-							<div class="slideshow-slides">
-								<div class="slideshow-info" style="padding-bottom: 44px;">
-									<div class="slideshow-counter">2/3</div>
-								</div>
-								<img src="assets/images/school/screenprint.jpg" class="slideshow-image" style="width: 100%; pointer-events: none;">
-							</div>
-
-							<div class="slideshow-slides">
-								<div class="slideshow-info" style="padding-bottom: 44px;">
-									<div class="slideshow-counter">3/3</div>
-								</div>
-								<img src="assets/images/school/linoprint.jpg" class="slideshow-image" style="width: 100%; pointer-events: none;">
-							</div>
-
-							<a class="slideshow-prev" onclick="plusSlides(-1)">&#10094;</a>
-							<a class="slideshow-next" onclick="plusSlides(1)">&#10095;</a>
-						</div>
+                        <img class="card-image" src="assets/images/school/screenprint.jpg"/>
                         <div class="card-description">
                             <span>This art was made using historic image making techniques, such as cyanotypes (1842), screenprinting (1911) and linocutting (circa 1890).</span>
                         </div>
                     </div>
 
-					<div class="column3 card bg-school">
+					<div class="column3 card bg-school2">
                         <span class="card-title">Cyberthug Remake</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Applied Media Studio</span>
@@ -156,23 +166,17 @@
                         </div>
                     </div>
 
-					<div class="column3 card bg-school">
-                        <span class="card-title">Cyberthug Core</span>
+					<div class="column3 card bg-school2">
+                        <span class="card-title">Physical Artefact</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Applied Media Studio</span>
                         <img class="card-image" src="assets/images/school/cyberthugCore2.jpg"/>
                         <div class="card-description">
                             <span>This is the artificial intelligence that governs the Cyberthug civilisation. Only those it deems worthy enough are able to access its chamber and advise it on how to improve things.</span>
                         </div>
-						<div class="card-button" style="float: right;">
-                            <a class="card-buttonSub bg-school3" href="cyberthug.html">
-                                <img src="assets/vectorIcons/globe.svg" style="width: 4rem; height: 4rem; padding: 1rem; filter: invert();"/>
-								<span class="card-buttonSub-text">Visit</span>
-                            </a>
-                        </div>
                     </div>
 
-					<div class="column3 card bg-school">
+					<div class="column3 card bg-school2">
                         <span class="card-title">Loops on a Theme</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Creative Studio</span>
@@ -184,23 +188,17 @@
                         </div>
                     </div>
 
-                    <div class="column3 card bg-school">
-                        <span class="card-title">Cyberthug</span>
+                    <div class="column3 card bg-school2">
+                        <span class="card-title">Sci-Fi Character</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Applied Media Studio</span>
                         <img class="card-image" src="assets/images/school/cyberthug.jpg"/>
                         <div class="card-description">
                             <span>This was a half-year project that involved creating a fictional species set in the future. The model shown above is a member of the Cyberthug race - humans that required artificial components to survive when the Earth's environment became toxic.</span>
                         </div>
-						<div class="card-button" style="float: right;">
-                            <a class="card-buttonSub bg-school3" href="cyberthug.html">
-                                <img src="assets/vectorIcons/globe.svg" style="width: 4rem; height: 4rem; padding: 1rem; filter: invert();"/>
-								<span class="card-buttonSub-text">Visit</span>
-                            </a>
-                        </div>
                     </div>
 
-                    <div class="column3 card bg-school">
+                    <div class="column3 card bg-school2">
                         <span class="card-title">Animated Pepeha</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Image Making Studio</span>
@@ -212,7 +210,7 @@
                         </div>
                     </div>
 
-                    <div class="column3 card bg-school">
+                    <div class="column3 card bg-school2">
                         <span class="card-title">Photocollage</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Image Making Studio</span>
@@ -228,12 +226,12 @@
 
 
         <!-- 2019 -->
-        <section class="section bg-school">
+        <section class="section bg-school2">
             <div class="container">
                 <h2 class="section-heading textColor-secondary">2019</h2>
                 <div class="row">
 
-					<div class="column3 card bg-school2">
+					<div class="column3 card bg-school3">
                         <span class="card-title">Teleporter Website</span>
                         <img class="card-image" src="assets/images/school/teleporter.jpg"/>
                         <div class="card-description">
@@ -247,16 +245,16 @@
                         </div>
                     </div>
 
-					<div class="column3 card bg-school2">
-                        <span class="card-title">Energy Drink</span>
+					<div class="column3 card bg-school3">
+                        <span class="card-title">Product Packaging</span>
                         <img class="card-image" src="assets/images/school/energyDrink.jpg"/>
                         <div class="card-description">
                             <span>This was made for a graphic design class, and involved creating a concept for a product.</span>
                         </div>
                     </div>
 
-					<div class="column3 card bg-school2">
-                        <span class="card-title">Electric Scooter Infographic</span>
+					<div class="column3 card bg-school3">
+                        <span class="card-title">Infographic</span>
                         <div class="card-video">
                             <iframe class="card-youtube" allowfullscreen src=" "></iframe>
                         </div>
@@ -271,13 +269,13 @@
 
 
         <!-- 2018 -->
-        <section class="section bg-school darker">
+        <section class="section bg-school1">
             <div class="container">
                 <h2 class="section-heading textColor-secondary" style="margin-bottom: 0px;">Diploma of Creativity: Level 5</h2>
 	            <h3 class="section-subHeading textColor-secondary" style="margin-top: 0.5rem;">Wellington Institute of Technology, 2018</h3>
                 <div class="row">
 
-                    <div class="column3 card bg-school">
+                    <div class="column3 card bg-school2">
                         <span class="card-title">Dystopian City</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Image Making Studio</span>
@@ -289,7 +287,7 @@
                         </div>
                     </div>
 
-                    <div class="column3 card bg-school">
+                    <div class="column3 card bg-school2">
                         <span class="card-title">Calendars</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Design Studio</span>
@@ -299,7 +297,7 @@
                         </div>
                     </div>
 
-                    <div class="column3 card bg-school">
+                    <div class="column3 card bg-school2">
                         <span class="card-title">Principles of Animation</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Image Making Studio</span>
@@ -311,7 +309,7 @@
                         </div>
                     </div>
 
-                    <div class="column3 card bg-school">
+                    <div class="column3 card bg-school2">
                         <span class="card-title">For a Better Day</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Time-Based Studio</span>
@@ -323,7 +321,7 @@
                         </div>
                     </div>
 
-					<div class="column3 card bg-school">
+					<div class="column3 card bg-school2">
                         <span class="card-title">Interest Zines</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Design Studio</span>
@@ -343,7 +341,7 @@
                         </div>
                     </div>
 
-					<div class="column3 card bg-school">
+					<div class="column3 card bg-school2">
                         <span class="card-title">Turangawaewae</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Design Studio</span>
@@ -353,7 +351,7 @@
                         </div>
                     </div>
 
-                    <div class="column3 card bg-school">
+                    <div class="column3 card bg-school2">
                         <span class="card-title">Multipage Website</span>
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Digital Studio</span>
@@ -375,13 +373,13 @@
 
 
 		<!-- 2017 -->
-        <section class="section bg-school">
+        <section class="section bg-school2">
             <div class="container">
                 <h2 class="section-heading textColor-secondary" style="margin-bottom: 0px;">Diploma of Animation and Film: Level 5</h2>
 	            <h3 class="section-subHeading textColor-secondary" style="margin-top: 0.5rem;">Yoobee Colleges, 2017</h3>
                 <div class="row">
 
-                    <div class="column3 card bg-school2">
+                    <div class="column3 card bg-school3">
                         <span class="card-title">Walk Away</span>
                         <div class="card-video">
                             <iframe class="card-youtube" allowfullscreen src=" "></iframe>
@@ -391,7 +389,7 @@
                         </div>
                     </div>
 
-					<div class="column3 card bg-school2">
+					<div class="column3 card bg-school3">
                         <span class="card-title">PlayStation Commercial</span>
                         <div class="card-video">
                             <iframe class="card-youtube" allowfullscreen src=" "></iframe>

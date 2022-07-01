@@ -43,14 +43,6 @@ a@charset "UTF-8";
     background-color: #363636;
 }
 
-.bg-workbooks {
-	background-color: #3a435b;
-}
-
-.bg-workbooks2 {
-	background-color: #4b5776;
-}
-
 .bg-blueLight {
 	background-color: #4C5777;
 }
@@ -60,51 +52,60 @@ a@charset "UTF-8";
 }
 
 
-/* ---------- Cyberthug colours ---------- */
-
-.bg-cyberthug {
-    background-color: #40332f;
-}
-
-
-/* ---------- Phoenix Nest colours ---------- */
-
-.bg-phoenixNest {
-    background-color: #3b3947;
-}
-
-.bg-phoenixNest2 {
-    background-color: #4b475a;
-}
-
-
 /* ---------- School colours ---------- */
 
-.bg-school {
-    background-color: #3d454d;
+.bg-school1 {
+    background-color: #2d3439;
 }
 
 .bg-school2 {
-    background-color: #4d5761;
+    background-color: #3c464d;
 }
 
 .bg-school3 {
-    background-color: #4c555f;
+    background-color: #4c5861;
 }
 
 .bg-school4 {
-    background-color: #5d6975;
+    background-color: #5c6b76;
 }
 
 
-/* ---------- Photos colours ---------- */
+/* ---------- Workbook colours ---------- */
 
-.bg-photos {
-    background-color: #3f4b48;
+.bg-workbook1 {
+    background-color: #2c303a;
 }
 
-.bg-photos2 {
-    background-color: #505e5a;
+.bg-workbook2 {
+    background-color: #3b404e;
+}
+
+.bg-workbook3 {
+    background-color: #4b5162;
+}
+
+.bg-workbook4 {
+    background-color: #5b6377;
+}
+
+
+/* ---------- Project colours ---------- */
+
+.bg-project1 {
+    background-color: #2f2d39;
+}
+
+.bg-project2 {
+    background-color: #3f3c4d;
+}
+
+.bg-project3 {
+    background-color: #504c61;
+}
+
+.bg-project4 {
+    background-color: #605c76;
 }
 
 
