@@ -1,0 +1,154 @@
+a@charset "UTF-8";
+
+
+/* ---------- Background colours ---------- */
+
+.bg-primary {
+    background-color: #212121;
+}
+
+.bg-secondary {
+    background-color: #303030;
+}
+
+.bg-white {
+    background-color: #e0e0e0;
+}
+
+.bg-lightGrey {
+    background-color: #dddddd;
+}
+
+.bg-grey {
+	background-color: #d0d0d0;
+}
+
+.bg-darkGrey {
+    background-color: #202020;
+}
+
+.bg-black {
+    background-color: #202020;
+}
+
+.bg-blueGrey {
+    background-color: #353a3c;
+}
+
+.bg-default {
+    background-color: #202020;
+}
+
+.bg-default2 {
+    background-color: #363636;
+}
+
+.bg-workbooks {
+	background-color: #3a435b;
+}
+
+.bg-workbooks2 {
+	background-color: #4b5776;
+}
+
+.bg-blueLight {
+	background-color: #4C5777;
+}
+
+.bg-blueDark {
+	background-color: #2F364A;
+}
+
+
+/* ---------- Cyberthug colours ---------- */
+
+.bg-cyberthug {
+    background-color: #40332f;
+}
+
+
+/* ---------- Phoenix Nest colours ---------- */
+
+.bg-phoenixNest {
+    background-color: #3b3947;
+}
+
+.bg-phoenixNest2 {
+    background-color: #4b475a;
+}
+
+
+/* ---------- School colours ---------- */
+
+.bg-school {
+    background-color: #3d454d;
+}
+
+.bg-school2 {
+    background-color: #4d5761;
+}
+
+.bg-school3 {
+    background-color: #4c555f;
+}
+
+.bg-school4 {
+    background-color: #5d6975;
+}
+
+
+/* ---------- Photos colours ---------- */
+
+.bg-photos {
+    background-color: #3f4b48;
+}
+
+.bg-photos2 {
+    background-color: #505e5a;
+}
+
+
+/* ---------- Text colours ---------- */
+
+.textColor-primary {
+    color: #f8f8f8;
+}
+
+.textColor-blog {
+    color: #e0e0e0;
+}
+
+.textColor-secondary {
+    color: #b0b0b0;
+}
+
+.textColor-white {
+    color: #ffffff;
+}
+
+.textColor-lightGrey {
+    color: #b0b0b0;
+}
+
+.textColor-darkGrey {
+    color: #606060;
+}
+
+.textColor-black {
+    color: #000000;
+}
+
+.textColor-link {
+	color: #a3b3ff;
+}
+
+
+/* ---------- Modifiers ---------- */
+
+.darker {
+	background-color: #0003;
+}
+
+.lighter {
+	background-color: #fff3;
+}
