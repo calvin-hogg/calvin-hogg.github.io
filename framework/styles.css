@@ -1008,9 +1008,10 @@ span {
 
 .objectLink {
 	padding: 0.5rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	border-radius: 0.67rem;
 	transition: all 0.15s ease-out;
+	user-select: none;
 }
 
 .objectLink:hover {
