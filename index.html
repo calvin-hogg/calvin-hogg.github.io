@@ -11,14 +11,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="favicon.png">
     </head>
     <body class="bg-default2" onload="document.body.style.opacity='1', avatar.hidden=false" style="background-image: url('assets/images/about/bannerDark.jpg'); background-attachment: fixed; background-size: cover;">
 
 		<!-- Navbar Desktop-->
         <nav class="navbar bg-default">
             <div class="container-fluid" style="padding: 0px !important;">
-				<div class="navbarLogo">
-					<a href="index.html">
+				<div class="navbarLogo-active">
+					<a href="index.html" style="pointer-events: none;">
                         <div class="navbarLogo-text">
                             <span>CALVIN HOGG</span>
                         </div>
@@ -26,13 +27,13 @@
 				</div>
                 <div class="navbarLinks">
 					<a href="school.html">
-						<div class="navbarLinks-other" style="width: 118px;">
+						<div class="navbarLinks-other" style="width: 128px;">
 							<img class="navbarLinks-image" src="assets/vectorIcons/school.svg"/>
 							<span class="navbarLinks-text">School</span>
 						</div>
 					</a>
 					<a href="workbooks.html">
-    					<div class="navbarLinks-other" style="width: 154px;">
+    					<div class="navbarLinks-other" style="width: 166px;">
     						<img class="navbarLinks-image" src="assets/vectorIcons/workbook.svg"/>
 							<span class="navbarLinks-text">Workbooks</span>
     					</div>
@@ -56,13 +57,13 @@
             </div>
 			<div id="navbarMenuItems" class="darker">
 				<a href="school.html">
-					<div class="buttonDownload">
+					<div class="buttonMobileNav">
 						<img src="assets/vectorIcons/school.svg" style="filter: invert(); height: 100%;"/>
 						<span style="line-height: 2rem; margin-left: 1rem;">School</span>
 					</div>
 				</a>
 				<a href="workbooks.html">
-					<div class="buttonDownload">
+					<div class="buttonMobileNav">
 						<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
 						<span style="line-height: 2rem; margin-left: 1rem;">Workbooks</span>
 					</div>
@@ -70,14 +71,14 @@
 				<div class="darker" style="display: flex;">
 					<div style="width: 50%;">
 						<a href="https://twitter.com/calvinhogg2000" target="_blank">
-							<div class="buttonDownload column2" style="height: 1rem;">
+							<div class="buttonMobileNav column2" style="height: 1rem;">
 								<span class="textColor-secondary" style="line-height: 0.15rem; font-size: 0.85rem; margin: auto;">Twitter</span>
 							</div>
 						</a>
 					</div>
 					<div style="width: 50%;">
 						<a href="https://www.linkedin.com/in/calvin-hogg/" target="_blank">
-							<div class="buttonDownload column2" style="height: 1rem;">
+							<div class="buttonMobileNav column2" style="height: 1rem;">
 								<span class="textColor-secondary" style="line-height: 0.15rem; font-size: 0.85rem; margin: auto;">LinkedIn</span>
 							</div>
 						</a>
@@ -123,7 +124,7 @@
 						<br>
                         <span class="card-title" style="text-align: center !important;">Creative Cloud</span>
 						<br>
-                        <span class="card-subtitle textColor-secondary">Everything I need in a small monthly membership</span>
+                        <span class="card-subtitle textColor-secondary">Everything I need in a small monthly membership.</span>
 					</a>
 					<a class="column5 objectLink" href="https://www.autodesk.co.nz/products/maya/overview" target="_blank">
 						<br>
@@ -131,7 +132,7 @@
 						<br>
                         <span class="card-title">Autodesk Maya</span>
 						<br>
-                        <span class="card-subtitle textColor-secondary">Been using it for years</span>
+                        <span class="card-subtitle textColor-secondary">Been using it since 2017. Better than Blender.</span>
 					</a>
 					<a class="column5 objectLink" href="https://www.blender.org/" target="_blank">
 						<br>
@@ -139,7 +140,7 @@
 						<br>
                         <span class="card-title">Blender</span>
 						<br>
-                        <span class="card-subtitle textColor-secondary">The swiss army knife of CGI</span>
+                        <span class="card-subtitle textColor-secondary">The swiss army knife of CGI, although very unintuitive.</span>
 					</a>
 					<a class="column5 objectLink" href="https://renderman.pixar.com/" target="_blank">
 						<br>
@@ -147,7 +148,7 @@
 						<br>
                         <span class="card-title">RenderMan</span>
 						<br>
-                        <span class="card-subtitle textColor-secondary">First renderer I used, no reason to change</span>
+                        <span class="card-subtitle textColor-secondary">First renderer I used, no reason to learn a different one.</span>
 					</a>
 					<a class="column5 objectLink" href="https://atom.io/" target="_blank">
 						<br>
@@ -155,7 +156,7 @@
 						<br>
                         <span class="card-title">Atom</span>
 						<br>
-                        <span class="card-subtitle textColor-secondary">A powerful text editor that I also used to make this website</span>
+                        <span class="card-subtitle textColor-secondary">A powerful text editor that I also used to make this website.</span>
 					</a>
                     </div>
                 </div>
