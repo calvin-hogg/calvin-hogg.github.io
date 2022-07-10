@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 		<link rel="icon" type="image/x-icon" href="favicon.png">
     </head>
-    <body class="bg-default2" onload="document.body.style.opacity='1', avatar.hidden=false" style="background-image: url('assets/images/about/bannerDark.jpg'); background-attachment: fixed; background-size: cover;">
+    <body class="bg-default2" onload="document.body.style.opacity='1', avatar.hidden=false" style="background-image: url('assets/images/about/banner.png'); background-attachment: fixed; background-size: cover;">
 
 		<!-- Navbar Desktop-->
         <nav class="navbar bg-default">
@@ -32,6 +32,12 @@
 							<span class="navbarLinks-text">School</span>
 						</div>
 					</a>
+					<a href="gallery.html">
+						<div class="navbarLinks-other" style="width: 132px;">
+							<img class="navbarLinks-image" src="assets/vectorIcons/photos.svg"/>
+							<span class="navbarLinks-text">Gallery</span>
+						</div>
+					</a>
 					<a href="workbooks.html">
     					<div class="navbarLinks-other" style="width: 166px;">
     						<img class="navbarLinks-image" src="assets/vectorIcons/workbook.svg"/>
@@ -40,12 +46,7 @@
     				</a>
                 </div>
                 <div class="socialMediaNavbar">
-                    <div class="socialMediaNavbar-link" style="border-radius: 14px 4px 4px 14px;">
-                        <a href="https://twitter.com/calvinhogg2000" target="_blank">
-                            <img class="socialMediaNavbar-image" src="assets/vectorLogos/twitter.svg"/>
-                        </a>
-                    </div>
-                    <div class="socialMediaNavbar-link" style="border-radius: 4px 14px 14px 4px;">
+                    <div class="socialMediaNavbar-link" style="border-radius: 14px;">
                         <a href="https://www.linkedin.com/in/calvin-hogg/" target="_blank">
                             <img class="socialMediaNavbar-image" src="assets/vectorLogos/linkedin.svg"/>
                         </a>
@@ -62,6 +63,12 @@
 						<span style="line-height: 2rem; margin-left: 1rem;">School</span>
 					</div>
 				</a>
+				<a href="gallery.html">
+					<div class="buttonMobileNav">
+						<img src="assets/vectorIcons/photos.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Gallery</span>
+					</div>
+				</a>
 				<a href="workbooks.html">
 					<div class="buttonMobileNav">
 						<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
@@ -69,14 +76,7 @@
 					</div>
 				</a>
 				<div class="darker" style="display: flex;">
-					<div style="width: 50%;">
-						<a href="https://twitter.com/calvinhogg2000" target="_blank">
-							<div class="buttonMobileNav column2" style="height: 1rem;">
-								<span class="textColor-secondary" style="line-height: 0.15rem; font-size: 0.85rem; margin: auto;">Twitter</span>
-							</div>
-						</a>
-					</div>
-					<div style="width: 50%;">
+					<div style="width: 100%;">
 						<a href="https://www.linkedin.com/in/calvin-hogg/" target="_blank">
 							<div class="buttonMobileNav column2" style="height: 1rem;">
 								<span class="textColor-secondary" style="line-height: 0.15rem; font-size: 0.85rem; margin: auto;">LinkedIn</span>
@@ -88,100 +88,104 @@
 			<div class="divider"></div>
         </nav>
 
-        <div>
-			<section class="section">
-    			<div class="container">
-                    <div class="row">
-						<div class="column2">
-							<div class="avatarB">
-								<img class="avatar-image" style="padding: 0%;" src="assets/images/about/calvin.jpg"></img>
+		<div style="background-image: url('assets/images/noise2.png');">
+
+	        <div>
+				<section class="section">
+	    			<div class="container">
+	                    <div class="row">
+							<div class="column2">
+								<div class="avatarB">
+									<img class="avatar-image" style="padding: 0%;" src="assets/images/about/calvin.jpg"></img>
+								</div>
 							</div>
-						</div>
-    					<div class="column2">
-							<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Who am I?</h2>
-    						<span class="text-paragraph">
-    							Hey there! I'm Calvin. I'm a student working towards my Bachelor's degree in Creativity, with a particular interest in animation. Some of my other interests include graphic design, photography, web development and going for walks in nature.
-    						</span>
-    						<br>
-    						<br>
-    						<span class="text-paragraph">
-    							In my early tertiary days, I studied a bit of Information Technology, although I later decided it wasn't my thing, and I was more drawn to the creative, visual aspect of my current field of study.
-    						</span>
-    					</div>
-                    </div>
-                </div>
-            </section>
+	    					<div class="column2">
+								<h2 class="section-heading textColor-secondary" style="text-align: left !important; margin-top: 2rem !important; margin-bottom: 1rem !important;">Who am I?</h2>
+	    						<span class="text-paragraph">
+	    							Hey there! I'm Calvin. I'm a student working towards my Bachelor's degree in Creativity, with a particular interest in animation. Some of my other interests include graphic design, photography, web development and going for walks in nature.
+	    						</span>
+	    						<br>
+	    						<br>
+	    						<span class="text-paragraph">
+	    							In my early tertiary days, I studied a bit of Information Technology, although I later decided it wasn't my thing, and I was more drawn to the creative, visual aspect of my current field of study.
+	    						</span>
+	    					</div>
+	                    </div>
+	                </div>
+	            </section>
 
-			<div class="divider" style="width: 60%; margin-left: auto; margin-right: auto; display: flex;"></div>
+				<div class="divider" style="width: 80%; margin-left: auto; margin-right: auto; display: flex;"></div>
 
-			<section class="section">
-    			<div class="container">
-					<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Software of preference</h2>
-                    <div class="row">
-					<a class="column5 objectLink" href="https://www.adobe.com/nz/creativecloud.html" target="_blank">
-						<br>
-                        <img class="objectLink-icon" src="assets/vectorLogos/creativeCloud.svg"/>
-						<br>
-                        <span class="card-title" style="text-align: center !important;">Creative Cloud</span>
-						<br>
-                        <span class="card-subtitle textColor-secondary">Everything I need in a small monthly membership.</span>
-					</a>
-					<a class="column5 objectLink" href="https://www.autodesk.co.nz/products/maya/overview" target="_blank">
-						<br>
-                        <img class="objectLink-icon" src="assets/vectorLogos/maya1.svg"/>
-						<br>
-                        <span class="card-title">Autodesk Maya</span>
-						<br>
-                        <span class="card-subtitle textColor-secondary">Been using it since 2017. Better than Blender.</span>
-					</a>
-					<a class="column5 objectLink" href="https://www.blender.org/" target="_blank">
-						<br>
-                        <img class="objectLink-icon" src="assets/vectorLogos/blender.svg"/>
-						<br>
-                        <span class="card-title">Blender</span>
-						<br>
-                        <span class="card-subtitle textColor-secondary">The swiss army knife of CGI, although very unintuitive.</span>
-					</a>
-					<a class="column5 objectLink" href="https://renderman.pixar.com/" target="_blank">
-						<br>
-                        <img class="objectLink-icon" src="assets/vectorLogos/renderman.svg"/>
-						<br>
-                        <span class="card-title">RenderMan</span>
-						<br>
-                        <span class="card-subtitle textColor-secondary">First renderer I used, no reason to learn a different one.</span>
-					</a>
-					<a class="column5 objectLink" href="https://atom.io/" target="_blank">
-						<br>
-                        <img class="objectLink-icon" src="assets/vectorLogos/atom.svg"/>
-						<br>
-                        <span class="card-title">Atom</span>
-						<br>
-                        <span class="card-subtitle textColor-secondary">A powerful text editor that I also used to make this website.</span>
-					</a>
-                    </div>
-                </div>
-            </section>
+				<section class="section">
+	    			<div class="container">
+						<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Software of preference</h2>
+	                    <div class="row">
+						<a class="column5 objectLink" href="https://www.adobe.com/nz/creativecloud.html" target="_blank">
+							<br>
+	                        <img class="objectLink-icon" src="assets/vectorLogos/creativeCloud.svg"/>
+							<br>
+	                        <span class="card-title" style="text-align: center !important;">Creative Cloud</span>
+							<br>
+	                        <span class="card-subtitle textColor-secondary">Everything I need in a small monthly membership.</span>
+						</a>
+						<a class="column5 objectLink" href="https://www.autodesk.co.nz/products/maya/overview" target="_blank">
+							<br>
+	                        <img class="objectLink-icon" src="assets/vectorLogos/maya1.svg"/>
+							<br>
+	                        <span class="card-title">Autodesk Maya</span>
+							<br>
+	                        <span class="card-subtitle textColor-secondary">Been using it since 2017. Better than Blender.</span>
+						</a>
+						<a class="column5 objectLink" href="https://www.blender.org/" target="_blank">
+							<br>
+	                        <img class="objectLink-icon" src="assets/vectorLogos/blender.svg"/>
+							<br>
+	                        <span class="card-title">Blender</span>
+							<br>
+	                        <span class="card-subtitle textColor-secondary">The swiss army knife of CGI, although very unintuitive.</span>
+						</a>
+						<a class="column5 objectLink" href="https://renderman.pixar.com/" target="_blank">
+							<br>
+	                        <img class="objectLink-icon" src="assets/vectorLogos/renderman.svg"/>
+							<br>
+	                        <span class="card-title">RenderMan</span>
+							<br>
+	                        <span class="card-subtitle textColor-secondary">First renderer I used, no reason to learn a different one.</span>
+						</a>
+						<a class="column5 objectLink" href="https://atom.io/" target="_blank">
+							<br>
+	                        <img class="objectLink-icon" src="assets/vectorLogos/atom.svg"/>
+							<br>
+	                        <span class="card-title">Atom</span>
+							<br>
+	                        <span class="card-subtitle textColor-secondary">A powerful text editor that I also used to make this website.</span>
+						</a>
+	                    </div>
+	                </div>
+	            </section>
 
-			<div class="divider" style="width: 60%; margin-left: auto; margin-right: auto; display: flex;"></div>
+				<div class="divider" style="width: 80%; margin-left: auto; margin-right: auto; display: flex;"></div>
 
-			<section class="section">
-    			<div class="container">
-                    <div class="row">
-    					<div class="column1-about">
-							<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Contact me</h2>
-							<span>
-    							Contact details coming soon
-							</span>
-    					</div>
-                    </div>
-                </div>
-            </section>
-        </div>
+				<section class="section">
+	    			<div class="container">
+	                    <div class="row">
+	    					<div class="column1-about">
+								<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Contact me</h2>
+								<span>
+	    							Contact details coming soon
+								</span>
+	    					</div>
+	                    </div>
+	                </div>
+	            </section>
+	        </div>
 
-        <!-- Copyright -->
-        <div class="footer">
-            <span class="footer-text">&copy; Calvin Hogg</span>
-        </div>
+	        <!-- Copyright -->
+	        <div class="footer">
+	            <span class="footer-text">&copy; All media shown on this website (excluding logos) is the property of Calvin Hogg.</span>
+	        </div>
+
+		</div>
 
     </body>
 </html>

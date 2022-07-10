@@ -90,21 +90,21 @@ a@charset "UTF-8";
 }
 
 
-/* ---------- Project colours ---------- */
+/* ---------- Gallery colours ---------- */
 
-.bg-project1 {
+.bg-gallery1 {
     background-color: #2f2d39;
 }
 
-.bg-project2 {
+.bg-gallery2 {
     background-color: #3f3c4d;
 }
 
-.bg-project3 {
+.bg-gallery3 {
     background-color: #504c61;
 }
 
-.bg-project4 {
+.bg-gallery4 {
     background-color: #605c76;
 }
 
