@@ -136,41 +136,6 @@ span {
     pointer-events: none;
 }
 
-.featureContent {
-	display: flex;
-	flex-direction: column;
-	float: center;
-	align-items: center;
-}
-
-.featureTitle {
-	margin-top: 2rem;
-    font-size: 3.5rem;
-    font-weight: 700;
-    line-height: 100%;
-    color: #ffffff;
-}
-
-.featureCyberthug {
-    height: 30rem;
-    padding-top: 25vh;
-    min-height: 30rem;
-    position: relative;
-    background-image: url("background-cyberthug.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    user-select: text;
-    pointer-events: none;
-}
-
-.featureTitleCyberthug {
-	width: 24rem;
-	margin-top: 2rem;
-	filter: invert();
-}
-
 .avatar {
 	width: 400px;
 	height: 400px;
@@ -200,129 +165,6 @@ span {
     background-size: auto;
 }
 
-
-/* ---------- Slideshow ---------- */
-
-.slideshow {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
-}
-
-.slideshow-slides {
-	display: none;
-	user-select: none;
-}
-
-.slideshow-prev, .slideshow-next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -44px;
-	padding-top: 24px;
-	padding-bottom: 24px;
-	padding-left: 12px;
-	padding-right: 18px;
-	color: white;
-	font-weight: bold;
-	font-size: 22px;
-	transition: all 0.15s ease-out;
-	border-radius: 0 50rem 50rem 0;
-	user-select: none;
-	background-color: #000a;
-	opacity: 50%;
-}
-
-.slideshow-next {
-	right: 0;
-	padding-left: 18px;
-	padding-right: 12px;
-	border-radius: 50rem 0 0 50rem;
-}
-
-.slideshow-prev:hover, .slideshow-next:hover {
-	opacity: 100%;
-}
-
-.slideshow-info {
-	display: flex;
-	position: absolute;
-	width: 100%;
-	height: 48px;
-	bottom: 6px;
-	padding-left: 16px;
-	padding-right: 16px;
-    background-color: #000a;
-	border-radius: 0 0 1rem 1rem;
-}
-
-.slideshow-text {
-	color: #ffffff;
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 48px;
-	overflow: hidden;
-}
-
-.slideshow-counter {
-	color: #ffffff;
-	font-size: 16px;
-	font-weight: 700;
-	margin-left: auto;
-	margin-right: 0;
-	align: right;
-	line-height: 48px;
-}
-
-
-/* ---------- Glass buttons ---------- */
-
-.glassButton {
-	position: relative;
-	display: flex;
-	height: 6rem;
-    border-radius: 1.5rem;
-    user-select: none;
-	margin-bottom: 1rem;
-    background-image: linear-gradient(to bottom, #ffffff22, #ffffff08);
-    transition: all 0.15s ease-out;
-}
-
-.glassButtonDisabled {
-	position: relative;
-	display: flex;
-	height: 6rem;
-    border-radius: 1.5rem;
-    user-select: none;
-	margin-bottom: 1rem;
-    background-color: #ffffff10;
-	opacity: 50%;
-}
-
-.glassButtonSchool {
-	position: relative;
-	display: flex;
-	height: 4rem;
-    border-radius: 1.5rem;
-    user-select: none;
-	margin-top: 0.5rem;
-	margin-bottom: 1rem;
-    background-color: #5d6975;
-    transition: all 0.15s ease-out;
-}
-
-.glassButtonSchool {
-	position: relative;
-	display: flex;
-	height: 6rem;
-    border-radius: 1.5rem;
-    user-select: none;
-	margin-bottom: 1rem;
-    background-color: #4d5761;
-    transition: all 0.15s ease-out;
-}
-
 .buttonMobileNav {
 	height: 4rem;
 	padding: 1rem;
@@ -345,113 +187,6 @@ span {
 .buttonMobileNavIntense:hover {
 	background-color: #0000;
 }
-
-.glassButton-link {
-	display: flex;
-	width: 100%;
-}
-
-.glassButton:hover {
-	background-color: #ffffff16;
-}
-
-.glassButtonSchool:hover {
-	background-color: #6d7b8a;
-}
-
-.glassButton-image {
-	padding: 1.5rem;
-	filter: invert();
-}
-
-.glassButton-text1 {
-	font-size: 1.4rem;
-    font-weight: 500;
-}
-
-.glassButton-text2 {
-	font-size: 0.8rem;
-    font-weight: 500;
-}
-
-
-/* ---------- Gradient buttons ---------- */
-
-.gradientButton {
-	position: relative;
-	display: flex;
-	height: auto;
-    border-radius: 1.5rem;
-    user-select: none;
-	margin-bottom: 1rem;
-	background-image: linear-gradient(to bottom, #ffffff10, #ffffff10);
-	box-shadow: 0rem 0.1rem 0.5rem #00000050;
-}
-
-.gradientButton-background {
-	border-radius: 1.5rem;
-	background-image: linear-gradient(to bottom, #ffffff30, #ffffff00);
-	opacity: 0%;
-	transition: all 0.15s ease-out;
-}
-
-.gradientButton-background:hover {
-	opacity: 100%;
-}
-
-
-/* ---------- Portfolio buttons ---------- */
-
-.portfolio {
-    position: relative;
-    border-radius: 1.5rem;
-    transform: scale(0.93);
-    transition: all 0.15s ease-out;
-}
-
-.portfolio-image {
-    border-radius: 1.5rem;
-    transition: all 0.15s ease-out;
-	filter: saturate(0);
-}
-
-.portfolio-overlay {
-    opacity: 0%;
-}
-
-.portfolio:hover > .portfolio-image {
-	filter: saturate(1);
-}
-
-.portfolio:hover > .portfolio-overlay {
-    opacity: 100%;
-}
-
-
-
-
-
-.homeSubSection {
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-}
-
-/* ---------- Color strip ---------- */
-
-.colorStrip {
-    height: 6px;
-    overflow: hidden;
-}
-
-.colorStripWhite {
-    height: 3px;
-    background-color: #888;
-    overflow: hidden;
-}
-
-
-
-/* ---------- Page banner ---------- */
 
 .pageBanner {
     height: 26em;
@@ -756,29 +491,6 @@ span {
 	margin-top: 1.5rem;
 }
 
-
-/* ---------- Extra ---------- */
-
-
-.animCyberthugB {
-  display: flex;
-  padding: 2px;
-  width: 100% !important;
-  height: 100% !important;
-}
-
-
-.animCyberthugB {
-  animation: animCyberthugB-animation 4s infinite steps(48) forwards;
-}
-
-
-@keyframes animCyberthugB-animation {
-  to {
-    background-position: -14400px 0px;
-  }
-}
-
 .column4 {
 	transform: scale(0.95);
 }
@@ -801,67 +513,6 @@ span {
 }
 
 
-.slideshow-image {
-	border-radius: 1rem;
-}
-
-.slideshow-image2 {
-	border-radius: 1rem;
-	box-shadow: 0rem 0.1rem 0.3rem #00000050;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----- New ----- */
 
 .divider {
@@ -881,15 +532,6 @@ span {
 	pointer-events: none;
 	user-select: none;
 }
-
-
-
-
-
-
-
-
-
 
 /* ----- Navbar ----- */
 
@@ -1030,10 +672,6 @@ span {
 	display: none;
 }
 
-
-
-
-
 .textLink {
 	padding: 0.5rem;
 	border-radius: 0.67rem;
@@ -1107,38 +745,6 @@ span {
     font-size: 0.8rem;
     color: #888;
 }
-
-.indexCaret {
-	width: 3rem;
-	height: 3rem;
-	border-radius: 5rem;
-	margin-top: 1rem;
-	padding: 0.5rem;
-	pointer-events: all;
-	background-color: #ffffff00;
-	transition: all 0.15s;
-}
-
-.indexCaret:hover {
-	padding: 0.7rem;
-    background-color: #ffffff48;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
