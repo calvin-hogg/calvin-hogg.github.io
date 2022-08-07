@@ -1,4 +1,4 @@
-a@charset "UTF-8";
+@charset "UTF-8";
 
 
 /* ---------- Background colours ---------- */
@@ -40,7 +40,7 @@ a@charset "UTF-8";
 }
 
 .bg-default2 {
-    background-color: #363636;
+    background-color: #242424;
 }
 
 .bg-blueLight {

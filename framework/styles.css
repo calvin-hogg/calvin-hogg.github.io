@@ -148,7 +148,7 @@ span {
 	height: 100%;
     padding: 67%;
     margin-bottom: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
 }
 
 .backgroundFill {
@@ -364,7 +364,7 @@ span {
     font-size: 1rem;
     font-weight: 500;
     overflow: hidden;
-    height: 13rem;
+    height: 15rem;
 }
 
 .card-button {
@@ -616,6 +616,7 @@ span {
 	color: #fff;
 	opacity: 100%;
 	overflow: hidden;
+	user-select: none;
 	transition: all 0.15s ease-out;
 }
 
