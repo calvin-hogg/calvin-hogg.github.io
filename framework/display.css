@@ -131,6 +131,10 @@
 		width: 100%;
 		height: auto;
 	}
+
+	.featureImage {
+		height: 320px;
+	}
 }
 
 
@@ -189,14 +193,12 @@
 
 	.column2-60 {
         flex: 0 0 auto;
-        width: 50%;
-		padding-right: 2rem;
+        width: 100%;
     }
 
 	.column2-40 {
         flex: 0 0 auto;
-        width: 50%;
-		padding-right: 2rem;
+        width: 100%;
     }
 
 	.column2-wiki1 {
@@ -268,142 +270,9 @@
 		width: 50%;
 		height: auto;
 	}
-}
 
-
-/* ---------- Tablet view ---------- */
-
-@media (min-width: 1320px) {
-	.avatarContainer {
-		width: 400px;
-		height: 400px;
-		position: relative;
-		display: flex;
-	}
-
-    .featureContent {
-		transform: scale(1);
-	}
-
-	.page-background {
-		height: 18em;
-	}
-
-    .section-heading {
-        font-size: 2.2rem;
-    }
-
-    .container {
-        max-width: 1280px;
-    }
-
-	.column-blog {
-		flex: 0 0 auto;
-		margin-left: 0;
-		margin-right: 0;
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
-        width: 50%;
-	}
-
-    .column1 {
-        flex: 0 0 auto;
-        width: 100%;
-    }
-
-	.column1-about {
-        flex: 0 0 auto;
-        width: 60%;
-		margin-left: 20%;
-		margin-right: 20%;
-    }
-
-    .column2 {
-        flex: 0 0 auto;
-        width: 50%;
-		padding-right: 2rem;
-    }
-
-	.column2-60 {
-        flex: 0 0 auto;
-        width: 50%;
-		padding-right: 2rem;
-    }
-
-	.column2-40 {
-        flex: 0 0 auto;
-        width: 50%;
-		padding-right: 2rem;
-    }
-
-	.column2-wiki1 {
-        flex: 0 0 auto;
-        width: 250px;
-		display: block;
-    }
-
-	.column2-wiki2 {
-        flex: 0 0 auto;
-        width: auto;
-    }
-
-	.columnCyberthugA {
-	    flex: 0 0 auto;
-	    width: 40%;
-	}
-
-    .columnCyberthugA-image {
-        width: 21rem;
-        height: 21rem;
-        border-radius: 1.5rem;
-    }
-
-	.columnCyberthugB {
-	    flex: 0 0 auto;
-	    width: 60%;
-        margin-top: 0rem;
-	}
-
-    .column3 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-
-	.column4 {
-	    flex: 0 0 auto;
-	    width: 33%;
-	}
-
-	.column4-block {
-		width: 11rem;
-		height: 11rem;
-        border-radius: 1rem;
-	}
-
-	.column5 {
-	    flex: 0 0 auto;
-	    width: 33.33%;
-	}
-
-	.column-sketches {
-	    flex: 0 0 auto;
-	    width: 33%;
-	}
-
-	.homeSubSection {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-
-	.avatarB {
-		margin-top: 2rem;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.cardSketches {
-		width: 50%;
-		height: auto;
+	.featureImage {
+		height: 560px;
 	}
 }
 
@@ -539,19 +408,15 @@
 		width: 33%;
 		height: auto;
 	}
+
+	.featureImage {
+		height: 660px;
+	}
 }
 
 
 /* ---------- Mobile navigation bar ---------- */
-@media (max-width: 1019.99px) {
-	#navbarMenuItems {
-		display: default !important;
-	}
-
-	.navbarMenu {
-		display: default !important;
-	}
-
+@media (max-width: 1189.99px) {
 	.navbarLinksDivider {
 		display: none;
 	}
@@ -577,15 +442,7 @@
 }
 
 /* ---------- Desktop navigation bar ---------- */
-@media (min-width: 1020px) {
-	#navbarMenuItems {
-		display: none !important;
-	}
-
-	.navbarMenu {
-		display: none !important;
-	}
-
+@media (min-width: 1190px) {
 	.navbarLinks {
 		display: inherit !important;
 	}
